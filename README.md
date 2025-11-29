@@ -6,7 +6,7 @@
 ![React](https://img.shields.io/badge/React-19.2.0-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue)
 ![Node.js](https://img.shields.io/badge/Node.js-Express-green)
-![License](https://img.shields.io/badge/License-Private-red)
+
 
 **一个高密度的单页面内部账本系统，专为桌面使用优化**
 
