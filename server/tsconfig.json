@@ -1,0 +1,27 @@
+/**
+ * TypeScript Configuration for Backend Server
+ * 
+ * This configuration file tells TypeScript how to compile the server code.
+ * - Uses ES2020 target and ESNext modules for modern JavaScript features
+ * - Enables strict type checking for better code quality
+ * - Configures module resolution for Node.js environment
+ */
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["ES2020"],
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "types": ["node"]
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
+
